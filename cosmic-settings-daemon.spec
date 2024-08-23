@@ -20,7 +20,7 @@ Source2:        cargo_config
 BuildRequires:  cargo-rpm-macros >= 26
 BuildRequires:  rustc
 BuildRequires:  cargo
-BuildRequires:  systemd-devel
+BuildRequires:  pkgconfig(systemd)
 BuildRequires:  pkgconfig(udev)
 BuildRequires:  pkgconfig(libinput)
 BuildRequires:  pkgconfig(wayland-client)
