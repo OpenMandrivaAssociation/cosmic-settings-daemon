@@ -42,10 +42,10 @@ mkdir .cargo
 cp %{SOURCE2} .cargo/config
 
 %build
-%cargo_build
+%make_build
 
 %install
-%cargo_install
+%make_install
 
 %files
 %license LICENSE
