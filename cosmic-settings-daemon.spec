@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 %global crate cosmic-settings-daemon
 
 Name:           cosmic-settings-daemon
