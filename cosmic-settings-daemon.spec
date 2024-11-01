@@ -38,7 +38,7 @@ Requires:       acpid
 %description %{_description}
 
 %prep
-%autosetup -n %{name}-epoch-%{version}-alpha.2 -a1 -p1
+%autosetup -n %{name}-epoch-%{version}-alpha.3 -a1 -p1
 mkdir .cargo
 cp %{SOURCE2} .cargo/config
 
