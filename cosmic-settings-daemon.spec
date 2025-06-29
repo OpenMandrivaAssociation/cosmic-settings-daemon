@@ -25,6 +25,7 @@ BuildRequires:  cargo
 BuildRequires:  pkgconfig(systemd)
 BuildRequires:  pkgconfig(udev)
 BuildRequires:  pkgconfig(libinput)
+BuildRequires:  pkgconfig(libpulse)
 BuildRequires:  pkgconfig(wayland-client)
 BuildRequires:  pkgconfig(xkbcommon)
 BuildRequires:  pkgconfig(pam)
