@@ -3,7 +3,7 @@
 
 Name:           cosmic-settings-daemon
 Version:        1.0.0
-%define beta alpha.6
+%define beta alpha.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Settings daemon for the COSMIC Desktop Environment
 Group:          COSMIC
