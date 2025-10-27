@@ -3,8 +3,8 @@
 
 Name:           cosmic-settings-daemon
 Version:        1.0.0
-%define beta beta.1.1
-Release:        %{?beta:0.%{beta}.}1
+%define beta beta.3
+Release:        %{?beta:0.%{beta}.}
 Summary:        Settings daemon for the COSMIC Desktop Environment
 Group:          COSMIC
 # Zlib OR Apache-2.0 OR MIT
