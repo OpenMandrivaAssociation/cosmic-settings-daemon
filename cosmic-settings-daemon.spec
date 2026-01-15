@@ -2,8 +2,8 @@
 %global crate cosmic-settings-daemon
 
 Name:           cosmic-settings-daemon
-Version:        1.0.0
-%define beta beta.7
+Version:        1.0.2
+#define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Settings daemon for the COSMIC Desktop Environment
 Group:          COSMIC
@@ -19,6 +19,7 @@ Source1:        vendor.tar.xz
 # * mv vendor-config-%%{shortcommit}.toml ..
 Source2:        cargo_config
 
+BuildRequires:  make
 BuildRequires:  cargo-rpm-macros >= 26
 BuildRequires:  rustc
 BuildRequires:  cargo
