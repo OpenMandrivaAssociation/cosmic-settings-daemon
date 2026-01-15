@@ -19,6 +19,7 @@ Source1:        vendor.tar.xz
 # * mv vendor-config-%%{shortcommit}.toml ..
 Source2:        cargo_config
 
+BuildRequires:  make
 BuildRequires:  cargo-rpm-macros >= 26
 BuildRequires:  rustc
 BuildRequires:  cargo
