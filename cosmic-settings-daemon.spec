@@ -2,7 +2,7 @@
 %global crate cosmic-settings-daemon
 
 Name:           cosmic-settings-daemon
-Version:        1.0.2
+Version:        1.2.0
 #define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Settings daemon for the COSMIC Desktop Environment
@@ -23,16 +23,19 @@ BuildRequires:  make
 BuildRequires:  cargo-rpm-macros >= 26
 BuildRequires:  rustc
 BuildRequires:  cargo
+BuildRequires:  polkit
 BuildRequires:  pkgconfig(systemd)
 BuildRequires:  pkgconfig(udev)
 BuildRequires:  pkgconfig(libinput)
 BuildRequires:  pkgconfig(libpulse)
+BuildRequires:  pkgconfig(libpipewire-0.3)
 BuildRequires:  pkgconfig(openssl)
 BuildRequires:  pkgconfig(wayland-client)
 BuildRequires:  pkgconfig(xkbcommon)
 BuildRequires:  pkgconfig(pam)
 #BuildRequires:  just
 
+Recommends:     geoclue
 Requires:       acpid
 #Requires:       adw-gtk3-theme
 
