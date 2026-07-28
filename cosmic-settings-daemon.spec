@@ -2,7 +2,7 @@
 %global crate cosmic-settings-daemon
 
 Name:           cosmic-settings-daemon
-Version:        1.2.0
+Version:        1.4.0
 #define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Settings daemon for the COSMIC Desktop Environment
